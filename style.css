@@ -118,3 +118,20 @@ h1 {
   transform: translate(-50%, 150%);
   opacity: 1;
 }
+
+.insect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.insect img {
+  width: 100px;
+  height: 100px;
+}
