@@ -47,7 +47,23 @@ h1 {
 
 .insects-list {
   display: flex;
-  flex-wrap: ;
+  flex-wrap: wrap;
+  justify-content: center; 
+  list-style-type: none;
+  padding: 0;
+}
+
+.insects-list li {
+  margin: 10px;
+}
+
+.choose-insect-btn {
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
 }
 
 .choose-insect-btn img {
