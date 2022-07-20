@@ -29,3 +29,8 @@ function createInsect() {
   insect.classList.add('insect')
   const { x, y } = getRandomLocation()
 }
+
+function getRandomLocation() {
+  const width = window.innerWidth
+  const height = window.innerHeight
+}
