@@ -25,5 +25,5 @@ choose_insect_btns.forEach(btn => {
 })
 
 function createInsect() {
-  
+  const insect = document.createElement('div')
 }
