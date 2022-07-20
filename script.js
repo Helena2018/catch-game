@@ -4,7 +4,7 @@ const start_btn = document.getElementById('start-btn')
 const timeEl = document.getElementById('time')
 const scoreEl = document.getElementById('score')
 const message = document.getElementById('message')
-const game_container = document.getElementById('gmae-container')
+const game_container = document.getElementById('game-container')
 
 let second = 0
 let score = 0
@@ -34,6 +34,7 @@ function createInsect() {
   insect.innerHTML = `
     <img src="${selected_insect.src}" alt="${selected_insect.alt}" style="transform: rotate(${Math.random() * 360}deg)"
   `
+  game_container.appendChild('insect')
 }
 
 function getRandomLocation() {
