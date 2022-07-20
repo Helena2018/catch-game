@@ -28,6 +28,8 @@ function createInsect() {
   const insect = document.createElement('div')
   insect.classList.add('insect')
   const { x, y } = getRandomLocation()
+  insect.style.top = `${y}px`
+  insect.style.left = `${x}px`
 }
 
 function getRandomLocation() {
