@@ -63,5 +63,9 @@ function getRandomLocation() {
 }
 
 function catchInsect() {
-  console.log(123)
+  increaseScore()
+}
+
+function increaseScore() {
+  
 }
