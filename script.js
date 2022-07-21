@@ -29,7 +29,10 @@ function startGame() {
 }
 
 function createTime() {
-  
+  let m = Math.floor(second / 60)
+  let s = second % 60
+  m = m < 10 ? `0${m}` : m
+  s = s < 10 ? `0${s}` : m
 }
 
 function createInsect() {
