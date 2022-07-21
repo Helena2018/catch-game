@@ -33,6 +33,10 @@ function createTime() {
   let s = second % 60
   m = m < 10 ? `0${m}` : m
   s = s < 10 ? `0${s}` : m
+  timeEl.innerHTML = `
+    Time: ${m}:${s}
+  `
+  second++
 }
 
 function createInsect() {
