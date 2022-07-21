@@ -67,5 +67,6 @@ function catchInsect() {
 }
 
 function increaseScore() {
-  
+  score++
+  scoreEl.innerHTML = `Score: ${score}`
 }
